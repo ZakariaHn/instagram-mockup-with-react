@@ -1,6 +1,6 @@
 import React from "react";
 
-const Gellery = (props) => {
+const Gallery = (props) => {
   return (
     <section className="gallery">
       <div>
@@ -10,11 +10,11 @@ const Gellery = (props) => {
       </div>
       <div className="gallery-photos">
         {props.data.map(({ id, img }) => (
-          <img key={id} src={img} alt="img" />
+          <img key={id} src={img} alt="img" className="single-image" />
         ))}
       </div>
     </section>
   );
 };
 
-export default Gellery;
+export default Gallery;
