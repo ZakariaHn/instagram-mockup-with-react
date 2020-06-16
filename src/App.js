@@ -13,10 +13,10 @@ export default class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <main className="container">
-          <Header />
+        <Header />
+        <main>
           <Profile />
-          <ProfileImages />
+          <ProfileImages data={Data} />
           <Gallery data={Data} />
         </main>
       </React.Fragment>
