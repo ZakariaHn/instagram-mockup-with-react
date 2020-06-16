@@ -1,4 +1,5 @@
-#Run Aplication:
- * `clone the repo`
- * `npm instal`
- * `npm start`
+# Run the Aplication by:
+ * `cloning the repo`
+ * `go to terminal and run:
+   * `npm instal`
+   * `npm start`
