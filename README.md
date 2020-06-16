@@ -1,1 +1,4 @@
-# instagram-mockup-with-react
+#Run Aplication:
+ * `clone the repo`
+ * `npm instal`
+ * `npm start`
