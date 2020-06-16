@@ -1,0 +1,75 @@
+.profile {
+  height: 15rem;
+  display: flex;
+  .profile-pic {
+    width: 25%;
+    height: 100%;
+    & * {
+      width: 70%;
+      height: 70%;
+      margin: 2rem 0 0 3rem;
+      border-radius: 50%;
+    }
+  }
+  .profile-infos {
+    width: 75%;
+    height: 100%;
+    padding: 2rem 0 0 2.8rem;
+    div:first-child {
+      display: flex;
+      flex-direction: row;
+      h2 {
+        margin-right: 3rem;
+      }
+      button {
+        color: wheat;
+        background-color: #0095f6;
+        border: none;
+        border-radius: 0.2rem;
+      }
+      & :nth-child(2) {
+        width: 6rem;
+      }
+      & :nth-child(3) {
+        width: 2rem;
+      }
+
+      & :last-child {
+        background-color: transparent;
+        color: #1c1d1d;
+        font-size: 1rem;
+      }
+      & * {
+        margin: 0.2rem;
+      }
+    }
+    div:nth-child(2) {
+      display: flex;
+      flex-direction: row;
+      & * {
+        margin: 2.5rem 2.5rem 0 0.4rem;
+      }
+    }
+    .bio {
+      width: 80%;
+      text-align: justify;
+      letter-spacing: 1px;
+      line-height: 1.2rem;
+    }
+  }
+}
+
+.Profile-images {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  & * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 2rem 0.5rem 2rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+  }
+}
