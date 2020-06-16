@@ -67,11 +67,12 @@ body {
   div:nth-child(2) {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+
     & * {
-      width: 15rem;
-      height: 15rem;
-      margin: 2rem;
+      width: 20rem;
+      height: 18rem;
+      margin: 0.7rem;
     }
   }
 

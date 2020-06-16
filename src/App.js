@@ -1,7 +1,12 @@
 import React from "react";
-import Header from "./components/Header";
-import { Profile, ProfileImages } from "./components/Profile";
-import Gallery from "./components/Gallery";
+
+import {
+  Gallery,
+  Header,
+  Profile,
+  ProfileImages,
+} from "./components/components";
+
 import Data from "./data.json";
 
 export default class App extends React.Component {
