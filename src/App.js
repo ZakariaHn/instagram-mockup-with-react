@@ -1,8 +1,16 @@
 import React from "react";
-import add from "./helpers";
-
+import Header from "./components/Header";
+import { Profile, ProfileImages } from "./components/Profile";
 export default class App extends React.Component {
   render() {
-    return <React.Fragment></React.Fragment>;
+    return (
+      <React.Fragment>
+        <main className="container">
+          <Header />
+          <Profile />
+          <ProfileImages />
+        </main>
+      </React.Fragment>
+    );
   }
 }
