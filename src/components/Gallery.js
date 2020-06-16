@@ -1,6 +1,6 @@
 import React from "react";
-import Data from "../data.json";
-const Gellery = () => {
+
+const Gellery = (props) => {
   return (
     <section className="gallery">
       <div>
@@ -9,7 +9,7 @@ const Gellery = () => {
         <h4>TAGGED</h4>
       </div>
       <div className="gallery-photos">
-        {Data.map(({ id, img }) => (
+        {props.data.map(({ id, img }) => (
           <img key={id} src={img} alt="img" />
         ))}
       </div>
