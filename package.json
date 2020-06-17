@@ -1,14 +1,14 @@
 {
   "name": "instagram-mockup-with-react",
   "version": "1.0.0",
+  "homepage": "https://zakariahn.github.io/instagram-mockup-with-react",
   "description": "",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "publish": "gh-pages -d build"
+    "build": "react-scripts build"
   },
   "author": "zakaria",
   "license": "ISC",
