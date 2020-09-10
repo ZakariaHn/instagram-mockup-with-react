@@ -1,7 +1,7 @@
 {
-  "name": "instagram-mockup-with-react",
+  "name": "instagram-mockup-react",
   "version": "1.0.0",
-  "homepage": "https://zakariahn.github.io/instagram-mockup-with-react",
+  "homepage": "https://zakariahn.github.io/instagram-mockup-react",
   "description": "",
   "main": "index.js",
   "scripts": {
